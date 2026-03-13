@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Bharath Tammi — Robotics & Control Systems Engineer specializing in autonomous systems, AI-enabled drones, prosthetic bionics, and intelligent automation." />
+  <meta name="keywords"
+    content="Robotics Engineer, Control Systems, ROS2, Autonomous Drones, Prosthetics, SLAM, MATLAB, Texas A&M" />
+  <meta property="og:title" content="Bharath Tammi — Robotics & Control Systems Engineer" />
+  <meta property="og:description"
+    content="Portfolio of Bharath Tammi, specializing in autonomous systems, AI-enabled drones, and intelligent robotics engineering." />
+  <title>Bharath Tammi — Robotics & Control Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ─── NAVIGATION ─────────────────────────────────────────────── -->
+  <nav id="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo nav-logo--photo" aria-label="Bharath Tammi Home">
+        <img src="assets/profile/photo.jpg" alt="Bharath Tammi" class="nav-logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+        <span class="nav-logo-fallback">BT</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="mailto:bharath.tammi@email.com" class="nav-cta">Hire Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ──────────────────────────────────────────────────── -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-orb hero-orb--1"></div>
+      <div class="hero-orb hero-orb--2"></div>
+      <div class="hero-orb hero-orb--3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open to New Opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="hero-name-first">Bharath</span>
+        <span class="hero-name-last">Tammi</span>
+      </h1>
+      <h2 class="hero-title">Robotics &amp; Control Systems Engineer</h2>
+      <p class="hero-tagline">
+        Building intelligent machines that bridge cutting-edge AI with real-world impact —
+        from autonomous UAVs to bionic prosthetics that restore human capability.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn--primary" id="heroViewWork">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="5 3 19 12 5 21 5 3" />
+          </svg>
+          View My Work
+        </a>
+        <a href="#contact" class="btn btn--ghost" id="heroContact">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="6">0</span>
+          <span class="stat-label">Featured Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="45">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Efficiency Gains (TAMU Research)</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-label">DoF Prosthetic System</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll to About section">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 12 15 18 9" />
+      </svg>
+    </a>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-avatar-wrap">
+            <div class="about-avatar">
+              <img src="assets/profile/photo.jpg" alt="Bharath Tammi profile photo" class="avatar-photo"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <div class="avatar-initials" style="display:none">BT</div>
+            </div>
+            <div class="about-avatar-ring"></div>
+            <div class="about-avatar-ring about-avatar-ring--2"></div>
+          </div>
+          <div class="about-quick-facts">
+            <div class="quick-fact">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Texas, USA
+            </div>
+            <div class="quick-fact">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+              Texas A&amp;M University
+            </div>
+            <div class="quick-fact">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+              Robotics Research
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-lead">
+            I'm a Robotics &amp; Control Systems Engineer driven by a singular mission: designing
+            intelligent systems that make a tangible difference in people's lives. With deep expertise
+            spanning embedded systems, autonomous navigation, and machine learning integration, I
+            translate complex engineering theory into deployable, real-world solutions.
+          </p>
+          <p class="about-body">
+            At Texas A&amp;M University, I channeled this passion into autonomous EV research —
+            developing ROS2-driven simulation environments that improved validation efficiency by 45%.
+            Beyond academia, my projects range from AI-powered drones capable of real-time obstacle
+            avoidance to myoelectric prosthetic hands that restore natural motion for amputees.
+          </p>
+          <p class="about-body">
+            I thrive at the intersection of hardware and software — equally comfortable architecting
+            control algorithms in MATLAB/Simulink as I am integrating LiDAR sensor fusion pipelines
+            on embedded Linux systems. Precision, empathy, and curiosity define how I approach
+            every engineering challenge.
+          </p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="5" y="2" width="14" height="20" rx="2" />
+                  <line x1="12" y1="18" x2="12.01" y2="18" />
+                </svg>
+              </div>
+              <div>
+                <h4>Embedded Systems</h4>
+                <p>Low-level programming and tight hardware–software integration across microcontrollers, FPGAs, and
+                  real-time platforms.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                </svg>
+              </div>
+              <div>
+                <h4>Control Systems</h4>
+                <p>Advanced control theory — PID, MPC, Kalman filtering, and state-space design optimized for real-world
+                  dynamics.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 8v4l3 3" />
+                </svg>
+              </div>
+              <div>
+                <h4>Human-Centered Design</h4>
+                <p>Engineering with empathy — building technology that directly improves human quality of life and
+                  accessibility.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                </svg>
+              </div>
+              <div>
+                <h4>Precision Engineering</h4>
+                <p>Meticulous attention to detail in system design, from sub-2mm kinematic accuracy to tight real-time
+                  control loops.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─────────────────────────────────────────────── -->
+  <section id="projects" class="projects section section--dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">A curated showcase of robotics, control systems, and AI engineering projects
+          demonstrating real-world impact.</p>
+      </div>
+      <div class="projects-filter" role="tablist" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="robotics" role="tab" aria-selected="false">Robotics</button>
+        <button class="filter-btn" data-filter="control" role="tab" aria-selected="false">Control Systems</button>
+        <button class="filter-btn" data-filter="ai" role="tab" aria-selected="false">AI / ML</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- Project 1 -->
+        <article class="project-card" data-category="robotics ai" tabindex="0" id="proj-tamu">
+          <div class="project-card-header">
+            <span class="project-number">01</span>
+            <div class="project-tags">
+              <span class="tag tag--blue">ROS2</span>
+              <span class="tag tag--green">SLAM</span>
+              <span class="tag tag--purple">LiDAR</span>
+            </div>
+          </div>
+          <h3 class="project-title">Autonomous EV Research — Texas A&amp;M</h3>
+          <p class="project-org">Research Assistant · Texas A&amp;M University</p>
+          <p class="project-desc">
+            Designed and deployed a ROS2-based autonomous EV simulation environment on Linux,
+            integrating LiDAR, depth cameras, and IMU for full SLAM-enabled navigation. Improved
+            testing and validation pipeline efficiency by <strong>45%</strong> through optimized
+            sensor fusion workflows and automated test orchestration.
+          </p>
+          <div class="project-cover">
+            <img src="assets/projects/tamu-ev.jpg"
+              alt="Autonomous EV open-frame chassis being assembled at Texas A&M University — suspension, wiring harness, and electronic control systems visible"
+              class="project-cover-img" />
+            <div class="project-cover-caption">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+              Autonomous EV chassis build — Texas A&amp;M Lab
+            </div>
+          </div>
+
+          <ul class="project-outcomes">
+            <li>45% improvement in simulation validation efficiency</li>
+            <li>Multi-sensor fusion: LiDAR + depth camera + IMU</li>
+            <li>ROS2 &amp; Linux-based simulation stack</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-stack">Python · ROS2 · SLAM · Linux</span>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" target="_blank" rel="noopener" aria-label="GitHub: TAMU Research">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link-btn project-link-btn--demo" target="_blank" rel="noopener"
+                aria-label="Demo: TAMU Research">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card project-card--featured" data-category="robotics ai" tabindex="0" id="proj-drone">
+          <div class="project-card-header">
+            <span class="project-number">02</span>
+            <div class="project-tags">
+              <span class="tag tag--orange">Featured</span>
+              <span class="tag tag--blue">Autonomous</span>
+            </div>
+          </div>
+          <h3 class="project-title">AI-Enabled Autonomous Drone</h3>
+          <p class="project-org">Personal Project · UAV Systems</p>
+          <p class="project-desc">
+            Engineered a fully autonomous UAV system incorporating real-time obstacle avoidance,
+            GPS-based waypoint navigation, and ML-driven target recognition. Leveraged OpenCV
+            for computer vision pipelines and TensorFlow for on-board inference, enabling
+            robust autonomous operation in dynamic, unstructured environments.
+          </p>
+          <div class="project-cover">
+            <img src="assets/projects/drone.jpg"
+              alt="AI-enabled autonomous quadcopter drone — custom PCB flight controller with integrated sensors and wireless module, held in hand showing the compact build"
+              class="project-cover-img" />
+            <div class="project-cover-caption">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+              Custom flight controller PCB — AI Autonomous Drone build
+            </div>
+          </div>
+          <ul class="project-outcomes">
+            <li>Real-time obstacle avoidance at flight speed</li>
+            <li>GPS waypoint navigation with dynamic re-routing</li>
+            <li>On-board ML inference via TensorFlow + OpenCV</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-stack">TensorFlow · OpenCV · Python · ROS · ArduPilot</span>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" target="_blank" rel="noopener" aria-label="GitHub: Autonomous Drone">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link-btn project-link-btn--demo" target="_blank" rel="noopener"
+                aria-label="Demo: Autonomous Drone">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-category="robotics ai" tabindex="0" id="proj-prosthetic">
+          <div class="project-card-header">
+            <span class="project-number">03</span>
+            <div class="project-tags">
+              <span class="tag tag--green">Biomed</span>
+              <span class="tag tag--purple">EMG</span>
+            </div>
+          </div>
+          <h3 class="project-title">Prosthetic Bionic Hand</h3>
+          <p class="project-org">Engineering Project · Human Augmentation</p>
+          <p class="project-desc">
+            Developed a myoelectric prosthetic hand achieving 5 degrees of freedom through
+            EMG signal acquisition, filtering, and ML-based gesture classification. The system
+            translates surface muscle signals into precise actuator commands, enabling natural
+            hand mobility for upper-limb amputees.
+          </p>
+          <div class="project-cover">
+            <img src="assets/projects/prosthetic.jpg"
+              alt="3D printed myoelectric prosthetic bionic hand with exposed wiring and embedded control circuitry"
+              class="project-cover-img" />
+            <div class="project-cover-caption">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+              Myoelectric prosthetic bionic hand prototype
+            </div>
+          </div>
+          <ul class="project-outcomes">
+            <li>5-DoF actuation with natural gesture mapping</li>
+            <li>EMG signal processing &amp; ML gesture recognition</li>
+            <li>Compact embedded control system</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-stack">Python · TensorFlow · EMG Sensors · C++</span>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" target="_blank" rel="noopener" aria-label="GitHub: Bionic Hand">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link-btn project-link-btn--demo" target="_blank" rel="noopener"
+                aria-label="Demo: Bionic Hand">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card" data-category="control" tabindex="0" id="proj-mpc">
+          <div class="project-card-header">
+            <span class="project-number">04</span>
+            <div class="project-tags">
+              <span class="tag tag--blue">MPC</span>
+              <span class="tag tag--orange">Simulation</span>
+            </div>
+          </div>
+          <h3 class="project-title">Obstacle Avoidance &amp; Automated Parking</h3>
+          <p class="project-org">Control Systems Project · Vehicle Dynamics</p>
+          <p class="project-desc">
+            Implemented a Model Predictive Control (MPC) framework in Python simulating realistic
+            vehicle dynamics for urban obstacle avoidance and automated parking maneuvers. Tuned
+            the cost function across multiple scenarios to achieve reliable, constraint-aware
+            trajectory planning.
+          </p>
+
+          <ul class="project-outcomes">
+            <li>MPC-based trajectory optimization in Python</li>
+            <li>Realistic vehicle dynamics model</li>
+            <li>Validated across multiple obstacle scenarios</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-stack">Python · MPC · SciPy · Control Theory</span>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" target="_blank" rel="noopener" aria-label="GitHub: MPC Parking">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link-btn project-link-btn--demo" target="_blank" rel="noopener"
+                aria-label="Demo: MPC Parking">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card" data-category="control robotics" tabindex="0" id="proj-fanuc">
+          <div class="project-card-header">
+            <span class="project-number">05</span>
+            <div class="project-tags">
+              <span class="tag tag--purple">Kinematics</span>
+              <span class="tag tag--green">MATLAB</span>
+            </div>
+          </div>
+          <h3 class="project-title">6-Axis Fanuc Manipulator Control Model</h3>
+          <p class="project-org">Robotics Project · Industrial Automation</p>
+          <p class="project-desc">
+            Developed a full inverse kinematics and control model for a 6-axis Fanuc industrial
+            manipulator in MATLAB/Simulink, then deployed the controller on a Raspberry Pi.
+            Achieved end-effector positioning accuracy of <strong>&lt;2mm</strong> error across
+            the full workspace envelope.
+          </p>
+
+          <ul class="project-outcomes">
+            <li>&lt;2mm end-effector positioning accuracy</li>
+            <li>Raspberry Pi deployment from MATLAB model</li>
+            <li>Full 6-DoF inverse kinematics solution</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-stack">MATLAB · Simulink · Python · Raspberry Pi</span>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" target="_blank" rel="noopener"
+                aria-label="GitHub: Fanuc Manipulator">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link-btn project-link-btn--demo" target="_blank" rel="noopener"
+                aria-label="Demo: Fanuc Manipulator">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card" data-category="ai control" tabindex="0" id="proj-pathplan">
+          <div class="project-card-header">
+            <span class="project-number">06</span>
+            <div class="project-tags">
+              <span class="tag tag--blue">Path Planning</span>
+              <span class="tag tag--orange">Analysis</span>
+            </div>
+          </div>
+          <h3 class="project-title">Path Planning Algorithm Comparison</h3>
+          <p class="project-org">Research Project · Autonomous Navigation</p>
+          <p class="project-desc">
+            Conducted a rigorous comparative analysis of A* and Dijkstra path-planning algorithms
+            applied to real quarry terrain maps derived from aerial imagery. Evaluated performance
+            metrics including compute time, path optimality, and scalability across varying
+            environmental complexity.
+          </p>
+
+          <ul class="project-outcomes">
+            <li>A* vs. Dijkstra benchmarking on real map data</li>
+            <li>Aerial imagery terrain preprocessing pipeline</li>
+            <li>Metric analysis: speed, path quality, scalability</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-stack">Python · NumPy · OpenCV · Graph Algorithms</span>
+            <div class="project-links">
+              <a href="#" class="project-link-btn" target="_blank" rel="noopener" aria-label="GitHub: Path Planning">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link-btn project-link-btn--demo" target="_blank" rel="noopener"
+                aria-label="Demo: Path Planning">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /projects-grid -->
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ───────────────────────────────────────────────── -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Expertise</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <p class="section-subtitle">A comprehensive toolkit built across robotics, control systems, AI, and embedded
+          hardware engineering.</p>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <h3 class="skill-cat-title">Programming</h3>
+          <div class="skill-list">
+            <span class="skill-chip">C / C++</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">MATLAB</span>
+            <span class="skill-chip">Assembly</span>
+            <span class="skill-chip">Embedded C</span>
+            <span class="skill-chip">Real-Time Systems</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
+          </div>
+          <h3 class="skill-cat-title">Control Systems</h3>
+          <div class="skill-list">
+            <span class="skill-chip">PID Control</span>
+            <span class="skill-chip">MPC</span>
+            <span class="skill-chip">State-Space</span>
+            <span class="skill-chip">Kalman Filters</span>
+            <span class="skill-chip">System ID</span>
+            <span class="skill-chip">Simulink</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="5" y="2" width="14" height="20" rx="2" />
+              <line x1="12" y1="18" x2="12.01" y2="18" />
+            </svg>
+          </div>
+          <h3 class="skill-cat-title">Hardware</h3>
+          <div class="skill-list">
+            <span class="skill-chip">Microcontrollers</span>
+            <span class="skill-chip">FPGA</span>
+            <span class="skill-chip">PCB Design</span>
+            <span class="skill-chip">Sensors &amp; Actuators</span>
+            <span class="skill-chip">Power Systems</span>
+            <span class="skill-chip">Raspberry Pi</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3 class="skill-cat-title">AI / Machine Learning</h3>
+          <div class="skill-list">
+            <span class="skill-chip">TensorFlow</span>
+            <span class="skill-chip">OpenCV</span>
+            <span class="skill-chip">Neural Networks</span>
+            <span class="skill-chip">Sensor Fusion</span>
+            <span class="skill-chip">ROS / ROS2</span>
+            <span class="skill-chip">SLAM</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3 class="skill-cat-title">Avionics &amp; UAV</h3>
+          <div class="skill-list">
+            <span class="skill-chip">Flight Control</span>
+            <span class="skill-chip">GPS Navigation</span>
+            <span class="skill-chip">Autopilot Systems</span>
+            <span class="skill-chip">ArduPilot</span>
+            <span class="skill-chip">UAV Systems</span>
+            <span class="skill-chip">IMU Integration</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="3" />
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14" />
+            </svg>
+          </div>
+          <h3 class="skill-cat-title">Tools &amp; Platforms</h3>
+          <div class="skill-list">
+            <span class="skill-chip">Git / GitHub</span>
+            <span class="skill-chip">Linux</span>
+            <span class="skill-chip">Docker</span>
+            <span class="skill-chip">CAD (SolidWorks)</span>
+            <span class="skill-chip">Oscilloscope</span>
+            <span class="skill-chip">Logic Analyzer</span>
+          </div>
+        </div>
+
+      </div><!-- /skills-grid -->
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ──────────────────────────────────────────────── -->
+  <section id="contact" class="contact section section--dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Whether you have an opportunity, a collaboration idea, or just want to talk robotics
+          — I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3 class="contact-info-heading">Connect With Me</h3>
+          <p class="contact-info-body">
+            I'm actively seeking opportunities in robotics, control systems, and autonomous
+            systems engineering. Feel free to reach out via email or connect on LinkedIn.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:bharath.tammi@email.com" class="contact-link" id="emailLink"
+              aria-label="Send email to Bharath Tammi">
+              <div class="contact-link-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-value">bharath.tammi@email.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/bharath-tammi-555821171" target="_blank" rel="noopener noreferrer"
+              class="contact-link" id="linkedinLink" aria-label="Bharath Tammi on LinkedIn">
+              <div class="contact-link-icon contact-link-icon--linkedin">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <div>
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-value">linkedin.com/in/bharath-tammi</span>
+              </div>
+            </a>
+            <a href="https://github.com/bharath-tammi" target="_blank" rel="noopener noreferrer" class="contact-link"
+              id="githubLink" aria-label="Bharath Tammi on GitHub">
+              <div class="contact-link-icon contact-link-icon--github">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+              </div>
+              <div>
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-value">github.com/bharath-tammi</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label for="contactName">Full Name</label>
+            <input type="text" id="contactName" name="name" placeholder="Jane Smith" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email Address</label>
+            <input type="email" id="contactEmail" name="email" placeholder="jane@example.com" required
+              autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" name="subject" placeholder="Job Opportunity / Collaboration / ..." />
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="5"
+              placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+            Send Message
+          </button>
+          <p class="form-note">I typically respond within 24–48 hours.</p>
+          <div class="form-success" id="formSuccess" aria-live="polite" hidden>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            Message sent! I'll be in touch soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">BT</span>
+        <p class="footer-tagline">Robotics &amp; Control Systems Engineer</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/bharath-tammi-555821171" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+        </a>
+        <a href="https://github.com/bharath-tammi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+          </svg>
+        </a>
+        <a href="mailto:bharath.tammi@email.com" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Bharath Tammi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
